@@ -6,6 +6,7 @@
 - [Tech Stack](#tech-stack)
 - [Installation](#installation)
 - [Pipeline Workflow](#pipeline-workflow)
+- [Screenshot](#screenshot)
 
 ---
 
@@ -61,3 +62,8 @@ PostgreSQL → running on localhost:5432
 2. Fetch Task calls fetch_data.py: Retrieves latest stock data (price, volume, timestamp) from Alpha Vantage API & parses JSON and validates response.
 3 Database Task inserts data into stock_data table in PostgreSQL. Table is created automatically if it doesn’t exist.
 4. Error Handling ensures failures are retried with logging.
+
+## Screenshot
+
+### Airflow DAG Running
+![Airflow DAG Screenshot](assets/airflow_ui.png)
