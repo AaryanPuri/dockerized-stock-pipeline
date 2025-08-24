@@ -6,7 +6,6 @@
 - [Tech Stack](#tech-stack)
 - [Installation](#installation)
 - [Pipeline Workflow](#pipeline-workflow)
-- [Author](#author-)
 
 ---
 
